@@ -1,0 +1,86 @@
+.banner{
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  object-fit: cover;
+}
+
+
+.banner h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+  margin: 24px auto;
+}
+
+.banner p {
+font-family: 'Lora', serif;
+font-style: italic;
+color: white;
+margin: 24px auto;
+}
+
+.banner .container {
+width:800px;
+margin:24px auto;
+
+}
+
+.container {
+width:800px;
+margin:24px auto;
+}
+
+
+body {
+  margin: 0;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 28;
+  color: rgb(100, 100, 100);
+
+}
+
+
+p {
+font-family: 'Lora', serif;
+color: rgb(150, 150, 150);
+
+}
+
+a {
+    background-color: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover {
+background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+
+@media(max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+ container {
+    width: 300px;
+}
+}
